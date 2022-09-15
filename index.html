@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="all.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="todoList">
+        <div class="title">
+          <h1>To Do List</h1>
+        </div>
+        <div class="content">
+          <div class="add">
+            <input type="text" class="addTxt" placeholder="Add List..">
+            <a href="#" class="addTodo">
+              <i class="fas fa-plus add plus-icon"> </i>
+            </a>
+          </div>
+          <ul class="menu">
+            <li class="allList" data-tab="all">All</li>
+            <li class="undonneList" data-tab="undone">Undone</li>
+            <li class="doneList" data-tab="done">Done</li>
+          </ul>
+          <ul class="list">
+            <!--<li><input type="checkbox">coding <a href="#"><i class="far fa-trash-alt delete"></i></a></li>-->
+          </ul>
+          <ul class="footer">
+            <li class="unfinished">0 undone list</li>
+            <li class="finished">delete done list</li>
+          </ul>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="all.js"></script>
+</body>
+</html>
