@@ -10,8 +10,7 @@ https://alyciaciou.github.io/ToDoList/
 *  scss
 * SweetAlert 套件
 
-# 網頁介紹
-## 首頁
+# 網頁
 ![GITHUB]( https://github.com/alyciaciou/ToDoList/blob/main/image/ToDoList.png)
 
 # 重要聲明
