@@ -7,7 +7,6 @@ https://alyciaciou.github.io/ToDoList/
 
 #使用技術
 *  JavaScript
-*  scss
 * SweetAlert 套件
 
 # 網頁
